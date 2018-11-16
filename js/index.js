@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
     $("#codinglink").click(function(){
         $("#codingouterwrapper").fadeToggle(800);
