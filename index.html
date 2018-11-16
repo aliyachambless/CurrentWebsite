@@ -9,8 +9,9 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         
         <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|IBM+Plex+Sans|Montserrat:300|Quicksand" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="/js/index.js"></script>
 
     </head>
 
@@ -19,7 +20,7 @@
           <div class="wrapper">
               
             <div id="logo">
-                <h1 class="logo logo-text"><a href="/" style="letter-spacing: 0.184211em;">ALIYA CHAMBLESS</a></h1>
+                <h1 class="logo logo-text"><a href="/" style="letter-spacing: 0.184211em; font-weight: 500;">ALIYA CHAMBLESS</a></h1>
             </div>
 
 
@@ -31,7 +32,7 @@
 
                           <li class="page-collection">
 
-                            <a href="about.html"><span>about</span></a>
+                            <a href="#" id="aboutlink"><span>about</span></a>
 
                           </li>
         
@@ -45,10 +46,10 @@
 
                         <li class="drop">
                             <div id="dropdown">
-                                <a href="#">Coding</a>
-                                <a href="#">UI/UX</a>
-                                <a href="#">Art</a>
-                                <a href="#">Design</a>
+                                <a href="#" id="codinglink">Coding</a>
+                                <a href="https://invis.io/VEP659APQ8X">UI/UX</a>
+                                <a href="#" id="artlink">Art</a>
+                                <a href="#" id = "designlink">Design</a>
                             </div>
                         </li>
 
@@ -58,14 +59,168 @@
             </div>
           </div>
         </header>
-
+        
+        <div id="aboutwrapper">
+            <div class="content">
+                <h3>
+                Hi! I'm Aliya
+                </h3>
+                <p> I am a sophomore at Brown University in Providence, Rhode Island. I am interested in Human-centered design and UI/UX. </p>
+                <p> I am currently working as a TA for Introduction to Object Oriented Programming, and working as a monitor for the brown
+                design workshop.</p>
+                <p> I am looking for an internship for the summer of 2019!</p>
+                <p> In my free time, I like to paint and watch 90s movies.</p>
+            </div>
+        </div>
+        
+        <div id="artouterwrapper">
+            <div id="artinnerwrapper">
+                    <div class="container">
+                      <img src="IMG_7462.PNG" alt="Avatar" class="image" style="width:100%">
+                      <div class="middle">
+                        <div class="text">Digital Art</div>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <img src="IMG_7461.PNG" alt="Avatar" class="image" style="width:100%">
+                      <div class="middle">
+                        <div class="text">Digital Art</div>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <img src="trisexualPaintin.png" alt="Avatar" class="image" style="width:100%">
+                      <div class="middle">
+                        <div class="text">Oil Painting</div>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <img src="snakeFace.png" alt="Avatar" class="image" style="width:100%">
+                      <div class="middle">
+                        <div class="text">Digital Art</div>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <img src="albinoSnakeColor.png" alt="Avatar" class="image" style="width:100%">
+                      <div class="middle">
+                        <div class="text">Digital Art</div>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <img src="IMG_4955.JPG" alt="Avatar" class="image" style="width:100%">
+                      <div class="middle">
+                        <div class="text">Ink</div>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <img src="IMG_5086.JPG" alt="Avatar" class="image" style="width:100%">
+                      <div class="middle">
+                        <div class="text">Live figure with charcoal</div>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <img src="IMG_4958.jpg" alt="Avatar" class="image" style="width:100%">
+                      <div class="middle">
+                        <div class="text">Ink</div>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <img src="IMG_5238.jpg" alt="Avatar" class="image" style="width:100%">
+                      <div class="middle">
+                        <div class="text">Self portrait in charcoal</div>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <img src="IMG_9232.JPG" alt="Avatar" class="image" style="width:100%">
+                      <div class="middle">
+                        <div class="text">Digital self portrait</div>
+                      </div>
+                    </div>
+            </div>
+        </div>
+            
+        <div id="codingouterwrapper">
+            <div id="codinginnerwrapper">
+                    <div id="dashcode" class="codingbox">
+                        <p class="icon"><img src="brightdaylogo.png" alt="Brightday"></p>
+                        <p class="title">BRIGHTDAY</p>
+                        <p class="subtitle">Summer 2018 | Skills: C++, Firebase, REST</p>
+                        <div class="descriptionwrapper"><p class="description">Research assistant for the Brown Graphics Lab. An unbounded 2D integrated environment for document-based, linkable work and knowledge bases.</p></div>
+                    </div>
+                    <div id="shell" class="codingbox">
+                        <p class="icon"><i class="fa fa-terminal fa-2x"></i></p>
+                        <p class="title">SHELL</p>
+                        <p class="subtitle">Fall 2018 | Skills: C</p>
+                        <div class="descriptionwrapper"><p class="description">Implementation of a UNIX shell in C, with command prompt and line parsing, basic builtin commands, signal handling, and foreground/background job control. </p></div>
+                    </div>
+                    <div id="malloc" class="codingbox">
+                        <p class="icon"><i class="fa fa-archive fa-2x"></i></p>
+                        <p class="title">MALLOC</p>
+                        <p class="subtitle">Fall 2018 | Skills: C</p>
+                        <div class="descriptionwrapper"><p class="description">Implementation of a dynamic memory and storage allocator in C using a first-fit doubly-linked explicit-free-list.</p></div>
+                    </div>
+                    <div id="malloc" class="codingbox">
+                        <p class="icon"><i class="fas fa-images fa-2x"></i></p>
+                        <p class="title">SEAMCARVE</p>
+                        <p class="subtitle">Spring 2018 | Skills: Java</p>
+                        <div class="descriptionwrapper"><p class="description">Implementation of a dynamic memory and storage allocator in C using a first-fit doubly-linked explicit-free-list.</p></div>
+                    </div>
+                    <div id="lets" class="codingbox">
+                        <p class="icon"><i class="fa fa-table fa-2x"></i></p>
+                        <p class="title">HEAP</p>
+                        <p class="subtitle">Spring 2018 | Skills: Java</p>
+                        <div class="descriptionwrapper"><p class="description">Web platform for Project LETS. Features include secure login and user management, secure realtime messaging, flexible notetaking, and scheduling abilities.</p></div>
+                    </div>
+                    <div id="chatter" class="codingbox">
+                        <p class="icon"><i class="fa fa-tree fa-2x"></i></p>
+                        <p class="title">DECISION TREE</p>
+                        <p class="subtitle">Spring 2018 | Skills: Java</p>
+                        <div class="descriptionwrapper"><p class="description">A web application that generates unique chatrooms and allows users to message each other in realtime, select display names, join specific rooms, view user statuses.</p></div>
+                    </div>
+                    <div id="cab" class="codingbox">
+                        <p class="icon"><i class="fa fa-user fa-2x"></i></p>
+                        <p class="title">WALKERBOT</p>
+                        <p class="subtitle">2018 | Skills: Swift</p>
+                        <div class="descriptionwrapper"><p class="description">Chrome extension that allows Brown students to receive notifications (push/email) when spaces in classes open up. Created for Hack@Brown 2018.</p></div>
+                    </div>
+                    <div id="brhousing" class="codingbox">
+                        <p class="icon"><i class="fa fa-database fa-2x"></i></p>
+                        <p class="title">DATABASE</p>
+                        <p class="subtitle">Fall 2018 | Skills: C</p>
+                        <div class="descriptionwrapper"><p class="description">A comprehensive website redesign that allows users to sort and filter different housing options at brown, with Google Maps API support.</p></div>
+                    </div>
+                </div>
+            </div>
+        
+        <div id="designouterwrapper">
+            <div id="designinnerwrapper">
+                    <div class="container">
+                      <img src="royal-01.png" alt="Avatar" class="image" style="width:100%">
+                      <div class="middle">
+                        <div class="text">Movie poster for Brown University Film Forum</div>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <img src="aNewLeaf.png" alt="Avatar" class="image" style="width:100%">
+                      <div class="middle">
+                        <div class="text">Movie poster for Brown University Film Forum</div>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <img src="getout.png" alt="Avatar" class="image" style="width:100%">
+                      <div class="middle">
+                        <div class="text">Movie poster for Brown University Film Forum</div>
+                      </div>
+                    </div>
+            </div>
+        </div>
+        
         <footer class="f">
 
         <!-- Add font awesome icons -->
-            <a href="https://github.com/aliyachambless" class="fa fa-github fa-2x"></a>
-            <a href="https://www.linkedin.com/in/aliyachambless/" class="fa fa-linkedin fa-2x"></a>
+            <a href="https://github.com/aliyachambless" class="fab fa-github fa-2x"></a>
+            <a href="https://www.linkedin.com/in/aliyachambless/" class="fab fa-linkedin fa-2x"></a>
             <a href="mailto:aliya_chambless@brown.edu" class="fa fa-envelope fa-2x"></a>
-            <a href="#" class="fa fa-instagram fa-2x"></a>
+            <a href="https://www.instagram.com/aliyachambless/" class="fab fa-instagram fa-2x"></a>
 
         </footer>
 
