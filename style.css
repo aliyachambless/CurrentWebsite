@@ -127,14 +127,26 @@ li{
     align-items: center;
 }
 
-.content {
-    clear: both;
-    background-color: rgba(255, 255, 255, 0.75);
-    transform: translateY(90px);
-    padding: 20px;
+#abouttext {
+    float: left;
+    width: 70%;
 }
 
-.content p {
+#selfie img{
+    width: 300px;
+    float: right;
+    margin: 50px;
+}
+
+#aboutcontent {
+    clear: both;
+    background-color: rgba(255, 255, 255, 0.75);
+    transform: translateY(50px);
+    padding: 20px;
+    float: left;
+}
+
+#aboutcontent p {
     margin: 50px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
