@@ -18,7 +18,7 @@ $(document).ready(function(){
         $("#designouterwrapper").hide(800);
         $("#aboutlink").css({"border-bottom": "1px #FFF solid"});
         $("body").css({"background-image" : "url(background.png)"});
-        $(".f").css({"position" : "absolute", "clear" : "both"});
+        $(".f").css({"position" : "relative", "clear" : "both", "padding-top" : "60px"});
     });
 });
 
