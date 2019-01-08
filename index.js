@@ -6,7 +6,7 @@ $(document).ready(function(){
         $("#designouterwrapper").hide(800);
         $("#aboutlink").css({"border-bottom": "0px #FFF solid"});
         $("body").css({"background-image" : "url(background.png)"});
-        $(".f").css({"position" : "absolute", "clear" : "both"});
+        $(".f").css({"position" : "relative", "clear" : "both"});
     });
 });
 
