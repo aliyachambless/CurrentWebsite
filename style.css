@@ -35,7 +35,12 @@ a {
     border-bottom: 1px solid #FFF
 }
 
-a:hover {
+.f a:hover {
+    opacity: .5;
+    transition: opacity 0.1s linear;
+}
+
+.logo a:hover {
     opacity: .5;
     transition: opacity 0.1s linear;
 }
@@ -194,6 +199,11 @@ h3{
   width: 100%;
   justify-content: center;
   padding-top: 40px;
+}
+
+#codinginnerwrapper a {
+    text-decoration: none; 
+    color: black;
 }
 
 .codingbox {
