@@ -5,7 +5,9 @@ $(document).ready(function(){
         $("#artouterwrapper").hide(800);
         $("#designouterwrapper").hide(800);
         $("#aboutlink").css({"border-bottom": "0px #FFF solid"});
-        $("body").css({"background-image" : "url(background-small.png)"});
+        if($("body").css("background-image") == "none"){
+            $("body").css({"background-image" : "url(background-small.png)"});
+        }
         $(".f").css({"position" : "relative", "clear" : "both"});
     });
 });
@@ -17,7 +19,9 @@ $(document).ready(function(){
         $("#artouterwrapper").hide(800);
         $("#designouterwrapper").hide(800);
         $("#aboutlink").css({"border-bottom": "1px #FFF solid"});
-        $("body").css({"background-image" : "url(background-small.png)"});
+        if($("body").css("background-image") == "none"){
+            $("body").css({"background-image" : "url(background-small.png)"});
+        }
         $(".f").css({"position" : "relative", "clear" : "both", "padding-top" : "60px"});
     });
 });
