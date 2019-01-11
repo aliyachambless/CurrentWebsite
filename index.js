@@ -6,7 +6,7 @@ $(document).ready(function(){
         $("#designouterwrapper").hide(800);
         $("#aboutlink").css({"border-bottom": "0px #FFF solid"});
         if($("body").css("background-image") == "none"){
-            $("body").css({"background-image" : "url(background-small.png)"});
+            $("body").css({"background-image" : "url(background-small.jpg)"});
         }
         $(".f").css({"position" : "relative", "clear" : "both"});
     });
@@ -20,7 +20,7 @@ $(document).ready(function(){
         $("#designouterwrapper").hide(800);
         $("#aboutlink").css({"border-bottom": "1px #FFF solid"});
         if($("body").css("background-image") == "none"){
-            $("body").css({"background-image" : "url(background-small.png)"});
+            $("body").css({"background-image" : "url(background-small.jpg)"});
         }
         $(".f").css({"position" : "relative", "clear" : "both", "padding-top" : "60px"});
     });
