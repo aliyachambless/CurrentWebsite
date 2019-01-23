@@ -5,29 +5,32 @@ $(document).ready(function(){
         $("#artouterwrapper").hide(800);
         $("#designouterwrapper").hide(800);
         $("#aboutlink").css({"border-bottom": "0px #FFF solid"});
-        if($("body").css("background-image") == "none"){
-            $("body").css({"background-image" : "url(background-small.jpg)"});
-        }
+//        if($("body").css("background-image") == "none"){
+//            $("body").css({"background-image" : "url(background-small.jpg)"});
+//        }
         $(".f").css({"position" : "relative", "clear" : "both"});
+        show();
     });
 });
 
 $(document).ready(function(){
     $("#aboutlink").click(function(){
+        show();
         $("#codingouterwrapper").hide(800);
         $("#aboutwrapper").fadeToggle(800);
         $("#artouterwrapper").hide(800);
         $("#designouterwrapper").hide(800);
         $("#aboutlink").css({"border-bottom": "1px #FFF solid"});
-        if($("body").css("background-image") == "none"){
-            $("body").css({"background-image" : "url(background-small.jpg)"});
-        }
+//        if($("body").css("background-image") == "none"){
+//            $("body").css({"background-image" : "url(background-small.jpg)"});
+//        }
         $(".f").css({"position" : "relative", "clear" : "both", "padding-top" : "60px"});
     });
 });
 
 $(document).ready(function(){
     $("#artlink").click(function(){
+        hide();
         $("#artouterwrapper").fadeToggle(800);
         $("#codingouterwrapper").hide(800);
         $("#aboutwrapper").hide(800);
@@ -40,6 +43,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#designlink").click(function(){
+        hide();
         $("#designouterwrapper").fadeToggle(800);
         $("#artouterwrapper").hide(800);
         $("#codingouterwrapper").hide(800);
