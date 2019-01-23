@@ -1,5 +1,6 @@
 $(document).ready(function(){
     $("#codinglink").click(function(){
+        hide();
         $("#codingouterwrapper").fadeToggle(800);
         $("#aboutwrapper").hide(800);
         $("#artouterwrapper").hide(800);
@@ -9,13 +10,12 @@ $(document).ready(function(){
 //            $("body").css({"background-image" : "url(background-small.jpg)"});
 //        }
         $(".f").css({"position" : "relative", "clear" : "both"});
-        show();
     });
 });
 
 $(document).ready(function(){
     $("#aboutlink").click(function(){
-        show();
+        hide();
         $("#codingouterwrapper").hide(800);
         $("#aboutwrapper").fadeToggle(800);
         $("#artouterwrapper").hide(800);
