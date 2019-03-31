@@ -53,3 +53,20 @@ $(document).ready(function(){
         $(".f").css({"position" : "relative", "clear" : "both"});
     });
 });
+
+$(document).ready(function(){
+    $(".containerLarge").click(function(){
+        $(this).toggleClass("bigger");   
+    });
+});
+
+$(document).ready(function(){
+    $(".container").click(function(){
+        $(this).toggleClass("bigger");   
+    });
+});
+
+function resizeIframe(obj) {
+    console.log("okk");
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+}

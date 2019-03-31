@@ -19,6 +19,18 @@ select{
     font-size: 17px;
 }
 
+#designouterwrapper p{
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-left: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+#designouterwrapper a{
+    text-decoration: underline;
+}
+
 #dropdown:hover {
     visibility: visible;
 }
@@ -292,6 +304,31 @@ h3{
 
 .container:hover .middle {
   opacity: .8;
+}
+
+.containerFull {
+    margin: 25px;
+    height: 900px;
+}
+
+.introImage {
+    margin: 25px;
+}
+
+.containerLarge {
+    margin: 25px;
+    width: 45%;
+}
+
+.bigger {
+    margin: 25px;
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+}
+
+.bigger:hover .middle {
+  opacity: 0;
 }
 
 .text {
